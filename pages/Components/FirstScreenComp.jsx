@@ -97,7 +97,7 @@ export default function FirstScreenComp() {
     return (
         <div>
             {show ?
-                <Modal show={show} onHide={() => handleClose()} backdrop="static" keyboard={false} centered fullscreen={'lg-down'} size={'xl'}>
+                <Modal className="animationObject" show={show} onHide={() => handleClose()} backdrop="static" keyboard={false} centered fullscreen={'lg-down'} size={'xl'} animation={false}>
                     <Modal.Body className="px-5" style={{ paddingTop: "60px", paddingBottom: "60px" }}>
                         <img src="https://shopify-assets.shopifycdn.com/shopifycloud/start-launch-web/assets/d85b9cab000824a606c5beb5f3e27540.svg" alt="#ImgNotFound" />
                         <ProgressBar variant="success" now={1} style={{ height: "10px" }} className='mt-4' />
@@ -401,7 +401,7 @@ export default function FirstScreenComp() {
                 <></>
             }
             {show5 ?
-                <Modal show={show5} backdrop="static" keyboard={false} centered fullscreen={'xl-down'} size={'md'}>
+                <Modal className="animationObject" show={show5} backdrop="static" keyboard={false} centered fullscreen={'xl-down'} size={'md'} animation={false}>
                     <Modal.Body className="px-5" style={{ paddingTop: "60px", paddingBottom: "60px" }}>
                         <img src="https://shopify-assets.shopifycdn.com/shopifycloud/start-launch-web/assets/d85b9cab000824a606c5beb5f3e27540.svg" alt="#ImgNotFound" />
                         <h3 className="mt-2">What would you like to name your store?</h3>
@@ -428,7 +428,7 @@ export default function FirstScreenComp() {
                 <></>
             }
             {show6 ?
-                <Modal show={show6} backdrop="static" keyboard={false} centered fullscreen={'xl-down'} size={'md'}>
+                <Modal className="animationObject" show={show6} backdrop="static" keyboard={false} centered fullscreen={'xl-down'} size={'md'} animation={false}>
                     <Modal.Body className="px-5" style={{ paddingTop: "60px", paddingBottom: "60px" }}>
                         <img src="https://shopify-assets.shopifycdn.com/shopifycloud/start-launch-web/assets/d85b9cab000824a606c5beb5f3e27540.svg" alt="#ImgNotFound" />
                         <h3 className="mt-2">Where will your business be located?</h3>
@@ -460,7 +460,7 @@ export default function FirstScreenComp() {
                 <></>
             }
             {show7 ?
-                <Modal show={show7} backdrop="static" keyboard={false} centered fullscreen={'xl-down'} size={'md'}>
+                <Modal className="animationObject" show={show7} backdrop="static" keyboard={false} centered fullscreen={'xl-down'} size={'md'} animation={false}>
                     <Modal.Body className="px-5" style={{ paddingTop: "60px", paddingBottom: "60px" }}>
                         <img src="https://shopify-assets.shopifycdn.com/shopifycloud/start-launch-web/assets/d85b9cab000824a606c5beb5f3e27540.svg" alt="#ImgNotFound" />
                         <h3 className="mt-2">Create a Shopify account</h3>

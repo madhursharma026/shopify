@@ -2,6 +2,25 @@
   background: #b6eefd;
 }
 
+.animationObject {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: myfirst 5s 1;
+}
+
+@keyframes myfirst {
+  0% {
+    left: -200px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
 @media (max-width: 991px) {
   .skip_and_next_btn {
     margin-top: 20px;
@@ -12,6 +31,7 @@
   .skip_and_next_btn {
     margin-top: 326px;
   }
+
   .skip_and_next_btn_for_scrn_3 {
     margin-top: 133px;
   }
