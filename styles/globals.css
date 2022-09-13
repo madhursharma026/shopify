@@ -1,0 +1,24 @@
+.bg {
+  background: #b6eefd;
+}
+
+@media (max-width: 991px) {
+  .skip_and_next_btn {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 991px) {
+  .skip_and_next_btn {
+    margin-top: 326px;
+  }
+  .skip_and_next_btn_for_scrn_3 {
+    margin-top: 133px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .extra_info {
+    display: none;
+  }
+}
