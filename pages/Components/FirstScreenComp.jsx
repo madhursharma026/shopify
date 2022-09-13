@@ -236,7 +236,7 @@ export default function FirstScreenComp() {
                             </div>
                         </div>
                         <div>
-                            <div className="row mt-3">
+                            <div className="row mt-3 pt-5">
                                 <div className="col-6">
                                     <b onClick={() => handleShow()} style={{ cursor: 'pointer' }}>Back</b>
                                 </div>
@@ -284,10 +284,10 @@ export default function FirstScreenComp() {
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-2">
-                                <div className="px-4 pt-3" style={{ border: "1px solid #C9CCCF", borderRadius: "5px" }}>
+                                <div className="px-4 pt-3 pb-3" style={{ border: "1px solid #C9CCCF", borderRadius: "5px" }}>
                                     <div className="row">
                                         <div className="col-8">
-                                            <div className="pt-4">
+                                            <div className="">
                                                 <div className="row">
                                                     <div className="col-2 col-xl-1">
                                                         <input type="checkbox" id="digital_products" />&emsp;
@@ -305,7 +305,7 @@ export default function FirstScreenComp() {
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-2">
-                                <div className="px-4 pt-3" style={{ border: "1px solid #C9CCCF", borderRadius: "5px" }}>
+                                <div className="px-4 pt-3 pb-3" style={{ border: "1px solid #C9CCCF", borderRadius: "5px" }}>
                                     <div className="row">
                                         {/* <div className="col-1 col-xl-1 mt-xl-3">
                                             <input type="checkbox" id="Services" />&emsp;
@@ -314,7 +314,7 @@ export default function FirstScreenComp() {
                                             <label for="Services"> <b>Services</b> <br className="extra_info" /><span className="extra_info">Including coaching, housekeeping, or consulting</span></label>
                                         </div> */}
                                         <div className="col-8">
-                                            <div className="pt-4">
+                                            <div className="">
                                                 <div className="row">
                                                     <div className="col-2 col-xl-1">
                                                         <input type="checkbox" id="Services" />&emsp;
@@ -333,7 +333,7 @@ export default function FirstScreenComp() {
                             </div>
                             <div className="col-lg-6 mt-2">
                                 <div className="p-4" style={{ border: "1px solid #C9CCCF", borderRadius: "5px" }}>
-                                    <div className="py-md-2">
+                                    <div className="py-md-3">
                                         <input type="checkbox" id="i_am_not_sure" />&emsp;
                                         <label for="i_am_not_sure"> <b>I'm not sure</b> <br className="extra_info" /><div></div></label>
                                     </div>
@@ -448,7 +448,7 @@ export default function FirstScreenComp() {
                             </div>
                         </div>
                         <div className="skip_and_next_btn_for_scrn_3">
-                            <div className="row mt-3">
+                            <div className="row mt-5 pt-3">
                                 <div className="col-6">
                                     <b onClick={() => handleShow3()} style={{ cursor: 'pointer' }}>Back</b>
                                 </div>
